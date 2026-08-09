@@ -1,134 +1,132 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="공항에서 가장 핫한 클럽을 한눈에! 기내식은 잊어라. 공항 클럽 모음, 루프탑부터 언더그라운드까지. 지금 바로 체크인하세요. 전화 010-6279-0862">
-    <meta name="keywords" content="공항 클럽, 공항 클럽 모음, 공항 라운지 클럽, 공항 파티, 클럽 추천, t3b08-gh-club-list-1">
-    <meta name="bpaas-design-system" content="organic-stripe">
-    <meta name="bpaas-design-theme" content="kr-organic-stripe">
-    <link rel="canonical" href="https://airport-review-note.mapo-room-guide.xyz/blog.html">
-    <meta property="og:title" content="블로그 - 공항 클럽 모음">
-    <meta property="og:description" content="공항에서 가장 핫한 클럽을 한눈에! 기내식은 잊어라. 공항 클럽 모음, 루프탑부터 언더그라운드까지. 지금 바로 체크인하세요. 전화 010-6279-0862">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1566737236500-c8ac43014a67?w=1200">
-    <meta name="twitter:card" content="summary">
-    <meta name="robots" content="index, follow">
-    <title>블로그 - 공항 클럽 모음</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Helvetica Neue', Arial, sans-serif; background: #0a0a0a; color: #e0e0e0; line-height: 1.6; }
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-        nav { position: sticky; top: 0; z-index: 1000; background: rgba(10, 10, 10, 0.95); backdrop-filter: blur(10px); border-bottom: 1px solid #2a2a2a; }
-        .nav-inner { display: flex; justify-content: space-between; align-items: center; height: 70px; }
-        .logo { font-size: 1.5rem; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; color: #fff; text-decoration: none; }
-        .logo span { color: #ff3366; }
-        .nav-links { display: flex; gap: 30px; list-style: none; }
-        .nav-links a { color: #999; text-decoration: none; font-size: 0.9rem; font-weight: 500; text-transform: uppercase; letter-spacing: 1px; transition: color 0.3s; }
-        .nav-links a:hover { color: #ff3366; }
-        .hamburger { display: none; flex-direction: column; cursor: pointer; gap: 5px; }
-        .hamburger span { width: 25px; height: 2px; background: #fff; transition: 0.3s; }
-        .hero { padding: 120px 0 80px; text-align: center; position: relative; overflow: hidden; }
-        .hero h1 { font-size: 3.5rem; font-weight: 900; letter-spacing: -1px; margin-bottom: 20px; color: #fff; }
-        .hero h1 span { color: #ff3366; }
-        .hero p { font-size: 1.2rem; color: #777; max-width: 600px; margin: 0 auto 40px; }
-        .hero-visual { width: 100%; height: 400px; background: url('https://images.unsplash.com/photo-1566737236500-c8ac43014a67?w=1200') center/cover; border-radius: 20px; margin-top: 40px; }
-        section { padding: 80px 0; }
-        section h2 { font-size: 2.5rem; font-weight: 800; color: #fff; margin-bottom: 40px; letter-spacing: -1px; }
-        section h2 span { color: #ff3366; }
-        .blog-post { max-width: 800px; margin: 0 auto; }
-        .blog-post .meta { color: #555; font-size: 0.9rem; margin-bottom: 30px; display: flex; gap: 20px; }
-        .blog-post .meta span { text-transform: uppercase; letter-spacing: 1px; }
-        .blog-post h3 { font-size: 1.8rem; color: #fff; margin-bottom: 20px; }
-        .blog-post p { color: #999; margin-bottom: 20px; font-size: 1.05rem; }
-        .blog-post blockquote { border-left: 4px solid #ff3366; padding-left: 20px; margin: 30px 0; color: #ccc; font-style: italic; font-size: 1.1rem; }
-        .blog-post ul { margin: 20px 0; padding-left: 20px; }
-        .blog-post ul li { color: #999; margin-bottom: 10px; list-style: none; }
-        .blog-post ul li::before { content: '> '; color: #ff3366; font-weight: bold; }
-        .blog-post .highlight-box { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 12px; padding: 30px; margin: 30px 0; }
-        .blog-post .highlight-box h4 { color: #ff3366; font-size: 1.2rem; margin-bottom: 15px; }
-        .blog-post .highlight-box p { color: #bbb; }
-        footer { border-top: 1px solid #2a2a2a; padding: 40px 0; text-align: center; color: #555; font-size: 0.9rem; }
-        footer a { color: #ff3366; text-decoration: none; }
-        @media (max-width: 768px) {
-            .nav-links { display: none; position: absolute; top: 70px; left: 0; right: 0; background: rgba(10, 10, 10, 0.98); flex-direction: column; padding: 20px; gap: 15px; }
-            .nav-links.active { display: flex; }
-            .hamburger { display: flex; }
-            .hero h1 { font-size: 2.2rem; }
-            .hero-visual { height: 250px; }
-            section h2 { font-size: 1.8rem; }
-            .blog-post h3 { font-size: 1.4rem; }
-        }
-    </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="공항에서 가장 핫한 클럽을 한눈에! 기내식은 잊어라. 공항 클럽 모음, 루프탑부터 언더그라운드까지. 지금 바로 체크인하세요.">
+ <meta name="keywords" content="공항 클럽, 공항 클럽 모음, 공항 라운지 클럽, 공항 파티, 클럽 추천, t3b08-gh-club-list-1">
+ <link rel="canonical" href="https://airport-review-note.mapo-room-guide.xyz/blog.html">
+ <meta property="og:title" content="블로그 - 공항 클럽 모음">
+ <meta property="og:description" content="공항에서 가장 핫한 클럽을 한눈에! 기내식은 잊어라. 공항 클럽 모음, 루프탑부터 언더그라운드까지. 지금 바로 체크인하세요.">
+ <meta property="og:image" content="https://images.unsplash.com/photo-1566737236500-c8ac43014a67?w=1200">
+ <meta name="twitter:card" content="summary">
+ <meta name="robots" content="index, follow">
+ <title>블로그 - 공항 클럽 모음</title>
+ <style>
+ * { margin: 0; padding: 0; box-sizing: border-box; }
+ body { font-family: 'Helvetica Neue', Arial, sans-serif; background: #0a0a0a; color: #e0e0e0; line-height: 1.6; }
+ .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+ nav { position: sticky; top: 0; z-index: 1000; background: rgba(10, 10, 10, 0.95); backdrop-filter: blur(10px); border-bottom: 1px solid #2a2a2a; }
+ .nav-inner { display: flex; justify-content: space-between; align-items: center; height: 70px; }
+ .logo { font-size: 1.5rem; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; color: #fff; text-decoration: none; }
+ .logo span { color: #ff3366; }
+ .nav-links { display: flex; gap: 30px; list-style: none; }
+ .nav-links a { color: #999; text-decoration: none; font-size: 0.9rem; font-weight: 500; text-transform: uppercase; letter-spacing: 1px; transition: color 0.3s; }
+ .nav-links a:hover { color: #ff3366; }
+ .hamburger { display: none; flex-direction: column; cursor: pointer; gap: 5px; }
+ .hamburger span { width: 25px; height: 2px; background: #fff; transition: 0.3s; }
+ .hero { padding: 120px 0 80px; text-align: center; position: relative; overflow: hidden; }
+ .hero h1 { font-size: 3.5rem; font-weight: 900; letter-spacing: -1px; margin-bottom: 20px; color: #fff; }
+ .hero h1 span { color: #ff3366; }
+ .hero p { font-size: 1.2rem; color: #777; max-width: 600px; margin: 0 auto 40px; }
+ .hero-visual { width: 100%; height: 400px; background: url('https://images.unsplash.com/photo-1566737236500-c8ac43014a67?w=1200') center/cover; border-radius: 20px; margin-top: 40px; }
+ section { padding: 80px 0; }
+ section h2 { font-size: 2.5rem; font-weight: 800; color: #fff; margin-bottom: 40px; letter-spacing: -1px; }
+ section h2 span { color: #ff3366; }
+ .blog-post { max-width: 800px; margin: 0 auto; }
+ .blog-post .meta { color: #555; font-size: 0.9rem; margin-bottom: 30px; display: flex; gap: 20px; }
+ .blog-post .meta span { text-transform: uppercase; letter-spacing: 1px; }
+ .blog-post h3 { font-size: 1.8rem; color: #fff; margin-bottom: 20px; }
+ .blog-post p { color: #999; margin-bottom: 20px; font-size: 1.05rem; }
+ .blog-post blockquote { border-left: 4px solid #ff3366; padding-left: 20px; margin: 30px 0; color: #ccc; font-style: italic; font-size: 1.1rem; }
+ .blog-post ul { margin: 20px 0; padding-left: 20px; }
+ .blog-post ul li { color: #999; margin-bottom: 10px; list-style: none; }
+ .blog-post ul li::before { content: '> '; color: #ff3366; font-weight: bold; }
+ .blog-post .highlight-box { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 12px; padding: 30px; margin: 30px 0; }
+ .blog-post .highlight-box h4 { color: #ff3366; font-size: 1.2rem; margin-bottom: 15px; }
+ .blog-post .highlight-box p { color: #bbb; }
+ footer { border-top: 1px solid #2a2a2a; padding: 40px 0; text-align: center; color: #555; font-size: 0.9rem; }
+ footer a { color: #ff3366; text-decoration: none; }
+ @media (max-width: 768px) {
+ .nav-links { display: none; position: absolute; top: 70px; left: 0; right: 0; background: rgba(10, 10, 10, 0.98); flex-direction: column; padding: 20px; gap: 15px; }
+ .nav-links.active { display: flex; }
+ .hamburger { display: flex; }
+ .hero h1 { font-size: 2.2rem; }
+ .hero-visual { height: 250px; }
+ section h2 { font-size: 1.8rem; }
+ .blog-post h3 { font-size: 1.4rem; }
+ }
+ </style>
   <meta property="og:url" content="https://airport-review-note.mapo-room-guide.xyz/blog.html">
   <meta property="og:type" content="website">
 </head>
 <body>
-    <nav>
-        <div class="container nav-inner">
-            <a href="/" class="logo">클럽<span>모음</span></a>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="/">홈</a></li>
-                <li><a href="/about">소개</a></li>
-                <li><a href="/blog">블로그</a></li>
-                <li><a href="/contact">문의</a></li>
-            </ul>
-            <div class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
+ <nav>
+ <div class="container nav-inner">
+ <a href="/" class="logo">클럽<span>모음</span></a>
+ <ul class="nav-links" id="navLinks">
+ <li><a href="/">홈</a></li>
+ <li><a href="/about">소개</a></li>
+ <li><a href="/blog">블로그</a></li>
+ <li><a href="/contact">문의</a></li>
+ </ul>
+ <div class="hamburger" id="hamburger">
+ 
+ 
+ 
+ </div>
+ </div>
+ </nav>
 
-    <section class="hero">
-        <div class="container">
-            <h1>클럽 탐험가의 <span>블로그</span></h1>
-            <p>기내식은 잊어라. 진짜 파티는 게이트 밖에서 시작된다. 공항 클럽의 숨겨진 세계를 파헤친다.</p>
-            <div class="hero-visual"></div>
-        </div>
-    </section>
+ <section class="hero">
+ <div class="container">
+ <h1>클럽 탐험가의 <span>블로그</span></h1>
+ <p>기내식은 잊어라. 진짜 파티는 게이트 밖에서 시작된다. 공항 클럽의 숨겨진 세계를 파헤친다.</p>
+ 
+ </div>
+ </section>
 
-    <section>
-        <div class="container blog-post">
-            <div class="meta">
-                <span>2025.03.15</span>
-                <span>by 클럽 마스터</span>
-                <span>5분 읽기</span>
-            </div>
-            <h3>왜 공항 클럽이 비행기보다 더 핫한지 아나?</h3>
-            <p>들어봐, 브로. 넌 지금까지 잘못 살아왔어. 비행기 타기 전에 라운지에서 샴페인 마시는 건 구닥다리야. 진짜 게임은 공항 클럽에서 펼쳐진다. 내가 말해주지, 인천공항부터 나리타까지, 지하 벙커 같은 언더그라운드 클럽이 기다리고 있어. 기내식은 집어치워. 여기선 베이스가 울리는 순간, 네 귀가 새로워질 거야.</p>
-            <blockquote>"클럽은 공항의 숨겨진 심장이다. 대부분은 모르지만, 아는 놈들만 아는 그곳."</blockquote>
-            <p>생각해봐. 3시간 환승 시간? 그걸로 뭐해? 면세점 돌아다니는 건 지루해 죽겠어. 대신 지하 2층에 있는 '더 게이트' 클럽에 가봐. 거긴 DJ가 24시간 돌아가고, 바텐더가 네 이름을 외쳐. 나만 믿고 따라와. 공항 클럽은 단순한 장소가 아니라, 네가 진짜 파티를 경험하는 첫걸음이야.</p>
-            
-            <div class="highlight-box">
-                <h4>🔥 핫팁: 공항 클럽 필수 체크리스트</h4>
-                <p>1. 환승 시간이 2시간 이상이면 바로 클럽으로 직행해.<br>
-                2. 입구에서 '멤버십' 묻는다고 쫄지 마. 그냥 '게스트'라고 말해.<br>
-                3. 베이스가 심장을 울리는 순간, 네 여행은 이미 성공한 거야.</p>
-            </div>
+ <section>
+ <div class="container blog-post">
+ <div class="meta">
+ <span>2025.03.15</span>
+ <span>by 클럽 마스터</span>
+ <span>5분 읽기</span>
+ </div>
+ <h3>왜 공항 클럽이 비행기보다 더 핫한지 아나?</h3>
+ <p>들어봐, 브로. 넌 지금까지 잘못 살아왔어. 비행기 타기 전에 라운지에서 샴페인 마시는 건 구닥다리야. 진짜 게임은 공항 클럽에서 펼쳐진다. 내가 말해주지, 인천공항부터 나리타까지, 지하 벙커 같은 언더그라운드 클럽이 기다리고 있어. 기내식은 집어치워. 여기선 베이스가 울리는 순간, 네 귀가 새로워질 거야.</p>
+ <blockquote>"클럽은 공항의 숨겨진 심장이다. 대부분은 모르지만, 아는 놈들만 아는 그곳."</blockquote>
+ <p>생각해봐. 3시간 환승 시간? 그걸로 뭐해? 면세점 돌아다니는 건 지루해 죽겠어. 대신 지하 2층에 있는 '더 게이트' 클럽에 가봐. 거긴 DJ가 24시간 돌아가고, 바텐더가 네 이름을 외쳐. 나만 믿고 따라와. 공항 클럽은 단순한 장소가 아니라, 네가 진짜 파티를 경험하는 첫걸음이야.</p>
+ 
+ <div class="highlight-box">
+ <h4>🔥 핫팁: 공항 클럽 필수 체크리스트</h4>
+ <p>1. 환승 시간이 2시간 이상이면 바로 클럽으로 직행해.<br>
+ 2. 입구에서 '멤버십' 묻는다고 쫄지 마. 그냥 '게스트'라고 말해.<br>
+ 3. 베이스가 심장을 울리는 순간, 네 여행은 이미 성공한 거야.</p>
+ </div>
 
-            <ul>
-                <li>루프탑 클럽: 하늘과 맞닿은 채로 파티를 즐겨라.</li>
-                <li>언더그라운드 클럽: 지하의 어둠이 너를 감싸안는다.</li>
-                <li>터미널 히든바: 아무도 모르는 비밀의 장소.</li>
-            </ul>
+ <ul>
+ <li>루프탑 클럽: 하늘과 맞닿은 채로 파티를 즐겨라.</li>
+ <li>언더그라운드 클럽: 지하의 어둠이 너를 감싸안는다.</li>
+ <li>터미널 히든바: 아무도 모르는 비밀의 장소.</li>
+ </ul>
 
-            <p>내가 가장 추천하는 건 인천공항 제2터미널의 '런웨이 라운지'야. 거긴 진짜 활주로가 보이는 옥상에 클럽이 있어. 밤이 되면 조명이 켜지고, 비행기 이륙하는 소리가 베이스랑 섞여. 미친 조합이지? 기내식 따위는 잊어. 여기서 네 인생 최고의 파티를 경험해. 전화 010-6279-0862로 문의하면 더 자세한 정보를 줄게.</p>
+ <p>내가 가장 추천하는 건 인천공항 제2터미널의 '런웨이 라운지'야. 거긴 진짜 활주로가 보이는 옥상에 클럽이 있어. 밤이 되면 조명이 켜지고, 비행기 이륙하는 소리가 베이스랑 섞여. 미친 조합이지? 기내식 따위는 잊어. 여기서 네 인생 최고의 파티를 경험해.</p>
 
-            <p>결론은 이거야: 공항은 더 이상 대기 장소가 아니야. 클럽이 있는 공항은 그 자체로 목적지다. 다음에 비행기 타기 전에, 게이트로 달려가지 말고 클럽으로 가. 거기가 진짜 게이트야. 나중에 고맙다고 해도 돼.</p>
-        </div>
-    </section>
+ <p>결론은 이거야: 공항은 더 이상 대기 장소가 아니야. 클럽이 있는 공항은 그 자체로 목적지다. 다음에 비행기 타기 전에, 게이트로 달려가지 말고 클럽으로 가. 거기가 진짜 게이트야. 나중에 고맙다고 해도 돼.</p>
+ </div>
+ </section>
 
-    <footer>
-        <div class="container">
-            <p>© 2025 클럽모음. 모든 권리 보유. | <a href="tel:01062790862">010-6279-0862</a> | 서울특별시 강남구</p>
-        </div>
-    </footer>
+ <footer>
+ <div class="container">
+ <p>© 2025 클럽모음. 모든 권리 보유. | | 서울특별시 강남구</p>
+ </div>
+ </footer>
 
-    <script>
-        document.getElementById('hamburger').addEventListener('click', function() {
-            document.getElementById('navLinks').classList.toggle('active');
-        });
-    </script>
+ <script>
+ document.getElementById('hamburger').addEventListener('click', function() {
+ document.getElementById('navLinks').classList.toggle('active');
+ });
+ </script>
 </body>
 </html>
